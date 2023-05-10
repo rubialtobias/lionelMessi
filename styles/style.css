@@ -3,6 +3,7 @@
     margin: 0;
     list-style-type: none;
 }
+
 header{
     background-color: #0b132b;
     display: flex;
@@ -11,6 +12,7 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+
 #hero{
     background-image: url(../media/messi-copa2.jpg);
     width: 100%;
@@ -22,12 +24,14 @@ header{
     align-items: center;
     text-align: center;
 }
-#hero p {
+
+#hero p{
     color: white;
     font-size: 40px;
     opacity: 60%;
     display: flex;
 }
+
 header{
     display: flex;
     flex-direction: row;
@@ -37,14 +41,17 @@ header{
     left: 0;
     width: 100%;
 }
+
 header img{
     padding: 0px 12px;
 }
-header ul {
+
+header ul{
     list-style-type: none;
     display: flex;
     flex-direction: row;
 }
+
 header ul li a{
     padding: 0px 30px;
     color: white;
@@ -52,19 +59,24 @@ header ul li a{
     text-decoration: none;
     font-family: 'Ruda';
 }
+
 .ruda{
     font-family: 'Ruda';
 }
+
 .rudaBold{
     font-family: 'Ruda';
     font-weight: 700;
 }
+
 .nunito{
     font-family: 'Nunito Sans';
 }
+
 main{
     background-color: #1c2541;
 }
+
 footer {
     height: 100px;
     background-color: #0b132b;
@@ -74,6 +86,7 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
+
 footer img{
     width: 50px;
     display: flex;
@@ -83,22 +96,26 @@ footer img{
     flex-wrap: wrap;
     border-image: round;
 }
-footer a {
+
+footer a{
     padding: 0 12px;
     text-decoration: none;
     color: white;
 }
+
 .contenedorNoticias {
     margin-top: 15px;
 	width: 330px;
 	height: 80px;
 	background: #0b132b;
 }
+
 #noticias h2 {
     padding-left: 12px;
     color: white;
     font-size: 72px;
 }
+
 #foto1{
     display: flex;
     align-items: end;
@@ -106,7 +123,8 @@ footer a {
     flex-direction: column;
     flex-wrap: wrap;
 }
- .foto1{
+
+.foto1{
     margin: 12px;
     padding: 0px;
     width: 60%;
@@ -120,6 +138,7 @@ footer a {
     border-style: solid;
     filter: blur(1.5px);
 }
+
 .foto2{
     margin: 12px;
     width: 60%;
@@ -132,7 +151,8 @@ footer a {
     border-width: 3px;
     border-style: solid;
     filter: blur(1.5px);
-} 
+}
+
 .textoFoto1{
     color: white;
     text-shadow: 1px 2px black;
@@ -142,11 +162,13 @@ footer a {
     left: 40%;
     text-align: center;
 }
+
 #foto2{
     position: relative;
     display: inline-block;
     text-align: center;
 }
+
 .textoFoto2{
     color: white;
     text-shadow: 1px 2px black;
@@ -156,35 +178,40 @@ footer a {
     left: 31%;
     transform: translate(-50%, -50%);
 }
+
 main section h1{
     color: white;
     text-align: center;
     padding: 20px;
 }
-.azulOscuro {
+
+.azulOscuro{
    color: #0b132b; 
 }
+
 #infancia{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.bordeCeleste {
+
+.bordeCeleste{
     width: 120px;
     height: 30px;
     padding: 12px 12px 12px 12px;
     background: #6fffe9;
     border-radius: 20px;
 }
-.bordeCeleste2 {
+
+.bordeCeleste2{
     width: 300px;
     height: 30px;
     padding: 12px 12px 12px 12px;
     background: #6fffe9;
     border-radius: 20px;
-
 }
-.ninez {
+
+.ninez{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -192,7 +219,8 @@ main section h1{
     align-content: center;
     text-align: center;
 }
-.ninez h2 {
+
+.ninez h2{
     font-size: 38px;
     display: flex ;
     flex-direction: column;
@@ -202,27 +230,32 @@ main section h1{
     text-align: center;
     padding: 10px;
 }
+
 .fotosNinez{
     display: flex;
     justify-content: center;
 }
-.messiNewells {
+
+.messiNewells{
     margin: 12px 12px 12px 12px;
     width: 700px;
     border-radius: 20px;
     box-shadow: 0px 0px 30px rgb(111, 255, 233);
 }
-.messiGrandoli {
+
+.messiGrandoli{
     margin: 12px 12px 12px 12px;
     width: 300px;
     border-radius: 20px;
     box-shadow: 0px 0px 30px rgb(111, 255, 233);
 }
+
 .textoNinez p{
     color: white;
     margin: 30px 12px 0px 20px;
     font-size: 24px;
 }
+
 .messiBarcelona1{
     margin: 30px 12px 12px 12px;
     width: 400px;
@@ -230,6 +263,7 @@ main section h1{
     border-radius: 20px;
     box-shadow: 0px 0px 30px rgb(111, 255, 233);
 }
+
 .messiBarcelona2{
     margin: 30px 12px 12px 12px;
     width: 390px;
@@ -237,7 +271,8 @@ main section h1{
     border-radius: 20px;
     box-shadow: 0px 0px 30px rgb(111, 255, 233);
 }
-.fcBarcelona {
+
+.fcBarcelona{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -245,6 +280,7 @@ main section h1{
     align-content: center;
     text-align: center;
 }
+
 .fcBarcelona h2{
     margin: 30px 12px 12px 12px;
     font-size: 38px;
@@ -256,11 +292,13 @@ main section h1{
     text-align: center;
     padding: 10px;
 }
+
 .textoBarca{
     color: white;
     margin: 30px 12px 0px 20px;
     font-size: 24px;
 }
+
 #fotosBarcelona{
     display: flex;
     flex-direction: row;
@@ -268,31 +306,36 @@ main section h1{
     justify-content: center;
     align-items: center;
 }
+
 .fotoBarcelona1{
     width: 60%;
     margin: 30px 12px 12px 12px;
     border-radius: 20px;
     box-shadow: 0px 0px 30px rgb(111, 255, 233);
 }
+
 .fotoBarcelona2{
     width: 60%;
     margin: 30px 12px 12px 12px;
     border-radius: 20px;
     box-shadow: 0px 0px 30px rgb(111, 255, 233);
 }
+
 .fotoBarcelona3{
     width: 60%;
     margin: 30px 12px 12px 12px;
     border-radius: 20px;
     box-shadow: 0px 0px 30px rgb(111, 255, 233);
 }
+
 .fotoBarcelona4{
     width: 60%;
     margin: 30px 12px 12px 12px;
     border-radius: 20px;
     box-shadow: 0px 0px 30px rgb(111, 255, 233);
 }
-#fotosBarcelona ul li {
+
+#fotosBarcelona ul li{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap; 
@@ -301,7 +344,8 @@ main section h1{
     list-style-type: none;
     text-decoration: none;
 }
-#fotosBarcelona ul {
+
+#fotosBarcelona ul{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap; 
@@ -310,7 +354,8 @@ main section h1{
     list-style-type: none;
     text-decoration: none;
 }
-.seleccionArgentina {
+
+.seleccionArgentina{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -318,7 +363,8 @@ main section h1{
     align-content: center;
     text-align: center;
 }
-.seleccionArgentina h2 {
+
+.seleccionArgentina h2{
     font-size: 38px;
     display: flex ;
     flex-direction: column;
@@ -328,7 +374,8 @@ main section h1{
     text-align: center;
     padding: 10px;
 }
-.bordeCeleste3 {
+
+.bordeCeleste3{
     width: 400px;
     height: 30px;
     margin: 30px 0px 12px 0px;
@@ -336,31 +383,36 @@ main section h1{
     background: #6fffe9;
     border-radius: 20px;
 }
-.textoArgentina {
+
+.textoArgentina{
         color: white;
         margin: 30px 12px 0px 20px;
         font-size: 24px;
 }
-.fotosArgentina {
+
+.fotosArgentina{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
 }
+
 .fotoArgentina1{
     width: 30%;
     margin: 30px 12px 12px 12px;
     border-radius: 20px;
     box-shadow: 0px 0px 30px rgb(111, 255, 233);
 }
+
 .fotoArgentina2{
     width: 50%;
     margin: 30px 12px 12px 12px;
     border-radius: 20px;
     box-shadow: 0px 0px 30px rgb(111, 255, 233);  
 }
-.psgTitulo {
+
+.psgTitulo{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -368,7 +420,8 @@ main section h1{
     align-content: center;
     text-align: center;
 }
-.psgTitulo h2 {
+
+.psgTitulo h2{
     font-size: 38px;
     display: flex ;
     flex-direction: column;
@@ -378,7 +431,8 @@ main section h1{
     text-align: center;
     padding: 10px;
 }
-.bordeCeleste4 {
+
+.bordeCeleste4{
     width: 400px;
     height: 30px;
     margin: 30px 0px 12px 0px;
@@ -386,11 +440,13 @@ main section h1{
     background: #6fffe9;
     border-radius: 20px;
 }
-.textoPsg {
+
+.textoPsg{
     color: white;
     margin: 30px 12px 0px 20px;
     font-size: 24px;
 }
+
 .fotosPsg{
     display: flex;
     flex-direction: column;
@@ -398,27 +454,33 @@ main section h1{
     justify-content: center;
     align-items: center;
 }
+
 .fotoPsg1{
     width: 50%;
     margin: 30px 12px 12px 12px;
     border-radius: 20px;
     box-shadow: 0px 0px 30px rgb(111, 255, 233);
 }
+
 .fotoPsg2{
     width: 50%;
     margin: 30px 12px 50px 12px;
     border-radius: 20px;
     box-shadow: 0px 0px 30px rgb(111, 255, 233);
 }
+
 .fondoEstadisticasBarcelona{
     width: 100%
 }
+
 .fondoEstadisticasPsg{
     width: 100%
 }
+
 .fondoEstadisticasArgentina{
     width: 100%
 }
+
 #tituloBarca{
     position: absolute;
     top: 20%;
@@ -426,6 +488,7 @@ main section h1{
     color: white;
     font-size: 24px;
 }
+
 .bordeAzul{
     width: 249px;
     height: 40px;
@@ -434,6 +497,7 @@ main section h1{
     background: #0b132b;
     text-align: center;
 }
+
 #estadisticasBarcelona{
     position: absolute;
     top: 20%;
@@ -441,6 +505,7 @@ main section h1{
     color: white;
     font-size: 54px;
 }
+
 #tituloPsg{
     position: absolute;
     top: 150%;
@@ -448,6 +513,7 @@ main section h1{
     color: white;
     font-size: 24px;
 }
+
 .bordeAzul2{
     width: 358px;
     height: 40px;
@@ -456,6 +522,7 @@ main section h1{
     background: #0b132b;
     text-align: center;
 }
+
 #estadisticasPsg{
     position: absolute;
     top: 135%;
@@ -463,6 +530,7 @@ main section h1{
     color: white;
     font-size: 59px;
 }
+
 #estadisticasArg{
     position: absolute;
     top: 255%;
@@ -470,6 +538,7 @@ main section h1{
     color: white;
     font-size: 55px;
 }
+
 #tituloArg{
     position: absolute;
     top: 255%;
@@ -477,6 +546,7 @@ main section h1{
     color: white;
     font-size: 27px;
 }
+
 .titulos{
     color: #3a506b;
     font-family: 'Nunito Sans';
@@ -490,7 +560,6 @@ main section h1{
     font-weight: bolder;
 }
 
-
 .tituloBarcelona{
     margin: 20px;
     display: flex ;
@@ -500,6 +569,7 @@ main section h1{
     align-items: center;
     text-align: center;
 }
+
 .bordeAzul3{
     width: 300px;
     height: 40px;
@@ -508,6 +578,7 @@ main section h1{
     background: #0b132b;
     text-align: center;
 }
+
 .bordeGris{
     width: 1200px;
     height: 40px;
@@ -516,6 +587,7 @@ main section h1{
     background: #3a506b;
     text-align: center;
 }
+
 #palmaresBarca{
     display: flex;
     flex-direction: column;
@@ -525,6 +597,7 @@ main section h1{
     width: 500px;
     height: 600px;
 }
+
 #contenedorPalmaresBarca{
     display: flex;
     flex-direction: column;
@@ -532,6 +605,7 @@ main section h1{
     justify-content: center;
     align-items: center;
 }
+
 #palmaresArg{
     display: flex;
     flex-direction: column;
@@ -540,6 +614,7 @@ main section h1{
     align-items: center;
     width: 500px;
 }
+
 #contenedorPalmaresArg{
     display: flex;
     flex-direction: column;
@@ -547,6 +622,7 @@ main section h1{
     justify-content: center;
     align-items: center;
 }
+
 .tituloArgentina{
     margin: 30px;
     display: flex ;
@@ -556,6 +632,7 @@ main section h1{
     align-items: center;
     text-align: center;
 }
+
 .bordeAzul4{
     width: 250px;
     height: 40px;
@@ -564,6 +641,7 @@ main section h1{
     background: #0b132b;
     text-align: center;
 }
+
 #palmaresPsg{
     display: flex;
     flex-direction: column;
@@ -572,6 +650,7 @@ main section h1{
     align-items: center;
     width: 500px;
 }
+
 #contenedorPalmaresPsg{
     display: flex;
     flex-direction: column;
@@ -579,6 +658,7 @@ main section h1{
     justify-content: center;
     align-items: center;
 }
+
 .tituloPsg{
     margin: 30px;
     display: flex ;
@@ -588,6 +668,7 @@ main section h1{
     align-items: center;
     text-align: center;
 }
+
 .bordeAzul5{
     width: 420px;
     height: 40px;
@@ -596,6 +677,7 @@ main section h1{
     background: #0b132b;
     text-align: center;
 }
+
 #palmaresInd{
     display: flex;
     flex-direction: column;
@@ -605,6 +687,7 @@ main section h1{
     width: 500px;
     margin-bottom: 30px;
 }
+
 #contenedorPalmaresInd{
     display: flex;
     flex-direction: column;
@@ -612,6 +695,7 @@ main section h1{
     justify-content: center;
     align-items: center;
 }
+
 .tituloInd{
     margin: 30px;
     display: flex ;
@@ -621,6 +705,7 @@ main section h1{
     align-items: center;
     text-align: center;
 }
+
 #videos {
     margin: 0px;
     display: flex;
@@ -629,14 +714,17 @@ main section h1{
     justify-content: center;
     align-items: center;
 }
+
 #video1{
     margin: 15px;
     padding: 15px;
 }
+
 #video2{
     margin: 5px;
     padding: 30px;
 }
+
 #imagenes{
     display: flex;
     flex-direction: row;
@@ -644,6 +732,7 @@ main section h1{
     justify-content: center;
     align-items: center;
 }
+
 #imagenes ul li{
     padding: 10px;
     display: flex;
@@ -652,30 +741,35 @@ main section h1{
     justify-content: center;
     align-items: center;
 }
+
 #galeriaFotoUno img{
     margin: 10px;
     width: 50%;
     border-radius: 20px;
     box-shadow: 0px 0px 30px rgb(111, 255, 233);
 }
+
 #galeriaFotoDos img{
     width: 80%;
     margin: 10px;
     border-radius: 20px;
     box-shadow: 0px 0px 30px rgb(111, 255, 233);
 }
+
 #galeriaFotoTres img{
     margin: 10px;
     width: 80%;
     border-radius: 20px;
     box-shadow: 0px 0px 30px rgb(111, 255, 233);
 }
+
 #galeriaFotoCuatro img{
     margin: 10px;
     width: 80%;
     border-radius: 20px;
     box-shadow: 0px 0px 30px rgb(111, 255, 233);
 }
+
 #galeriaFotoCinco img{
     margin: 10px;
     width: 80%;
