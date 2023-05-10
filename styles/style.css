@@ -1,0 +1,684 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+header{
+    background-color: #0b132b;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#hero{
+    background-image: url(../media/messi-copa2.jpg);
+    width: 100%;
+    height: 557px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#hero p {
+    color: white;
+    font-size: 40px;
+    opacity: 60%;
+    display: flex;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+header img{
+    padding: 0px 12px;
+}
+header ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li a{
+    padding: 0px 30px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Ruda';
+}
+.ruda{
+    font-family: 'Ruda';
+}
+.rudaBold{
+    font-family: 'Ruda';
+    font-weight: 700;
+}
+.nunito{
+    font-family: 'Nunito Sans';
+}
+main{
+    background-color: #1c2541;
+}
+footer {
+    height: 100px;
+    background-color: #0b132b;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+footer img{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-image: round;
+}
+footer a {
+    padding: 0 12px;
+    text-decoration: none;
+    color: white;
+}
+.contenedorNoticias {
+    margin-top: 15px;
+	width: 330px;
+	height: 80px;
+	background: #0b132b;
+}
+#noticias h2 {
+    padding-left: 12px;
+    color: white;
+    font-size: 72px;
+}
+#foto1{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+ .foto1{
+    margin: 12px;
+    padding: 0px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: end;
+    border-color: #6fffe9;
+    border-width: 3px;
+    border-style: solid;
+    filter: blur(1.5px);
+}
+.foto2{
+    margin: 12px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: baseline;
+    border-color: #6fffe9;
+    border-width: 3px;
+    border-style: solid;
+    filter: blur(1.5px);
+} 
+.textoFoto1{
+    color: white;
+    text-shadow: 1px 2px black;
+    font-size: 30px;
+    position: absolute;
+    top: 1030px;
+    left: 40%;
+    text-align: center;
+}
+#foto2{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.textoFoto2{
+    color: white;
+    text-shadow: 1px 2px black;
+    font-size: 30px;
+    position: absolute;
+    top: 85%;
+    left: 31%;
+    transform: translate(-50%, -50%);
+}
+main section h1{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.azulOscuro {
+   color: #0b132b; 
+}
+#infancia{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.bordeCeleste {
+    width: 120px;
+    height: 30px;
+    padding: 12px 12px 12px 12px;
+    background: #6fffe9;
+    border-radius: 20px;
+}
+.bordeCeleste2 {
+    width: 300px;
+    height: 30px;
+    padding: 12px 12px 12px 12px;
+    background: #6fffe9;
+    border-radius: 20px;
+
+}
+.ninez {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.ninez h2 {
+    font-size: 38px;
+    display: flex ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+.fotosNinez{
+    display: flex;
+    justify-content: center;
+}
+.messiNewells {
+    margin: 12px 12px 12px 12px;
+    width: 700px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(111, 255, 233);
+}
+.messiGrandoli {
+    margin: 12px 12px 12px 12px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(111, 255, 233);
+}
+.textoNinez p{
+    color: white;
+    margin: 30px 12px 0px 20px;
+    font-size: 24px;
+}
+.messiBarcelona1{
+    margin: 30px 12px 12px 12px;
+    width: 400px;
+    height: 550px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(111, 255, 233);
+}
+.messiBarcelona2{
+    margin: 30px 12px 12px 12px;
+    width: 390px;
+    height: 550px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(111, 255, 233);
+}
+.fcBarcelona {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.fcBarcelona h2{
+    margin: 30px 12px 12px 12px;
+    font-size: 38px;
+    display: flex ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+.textoBarca{
+    color: white;
+    margin: 30px 12px 0px 20px;
+    font-size: 24px;
+}
+#fotosBarcelona{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.fotoBarcelona1{
+    width: 60%;
+    margin: 30px 12px 12px 12px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(111, 255, 233);
+}
+.fotoBarcelona2{
+    width: 60%;
+    margin: 30px 12px 12px 12px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(111, 255, 233);
+}
+.fotoBarcelona3{
+    width: 60%;
+    margin: 30px 12px 12px 12px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(111, 255, 233);
+}
+.fotoBarcelona4{
+    width: 60%;
+    margin: 30px 12px 12px 12px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(111, 255, 233);
+}
+#fotosBarcelona ul li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+}
+#fotosBarcelona ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+}
+.seleccionArgentina {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.seleccionArgentina h2 {
+    font-size: 38px;
+    display: flex ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+.bordeCeleste3 {
+    width: 400px;
+    height: 30px;
+    margin: 30px 0px 12px 0px;
+    padding: 12px 12px 12px 12px;
+    background: #6fffe9;
+    border-radius: 20px;
+}
+.textoArgentina {
+        color: white;
+        margin: 30px 12px 0px 20px;
+        font-size: 24px;
+}
+.fotosArgentina {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.fotoArgentina1{
+    width: 30%;
+    margin: 30px 12px 12px 12px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(111, 255, 233);
+}
+.fotoArgentina2{
+    width: 50%;
+    margin: 30px 12px 12px 12px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(111, 255, 233);  
+}
+.psgTitulo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.psgTitulo h2 {
+    font-size: 38px;
+    display: flex ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+.bordeCeleste4 {
+    width: 400px;
+    height: 30px;
+    margin: 30px 0px 12px 0px;
+    padding: 12px 12px 12px 12px;
+    background: #6fffe9;
+    border-radius: 20px;
+}
+.textoPsg {
+    color: white;
+    margin: 30px 12px 0px 20px;
+    font-size: 24px;
+}
+.fotosPsg{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.fotoPsg1{
+    width: 50%;
+    margin: 30px 12px 12px 12px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(111, 255, 233);
+}
+.fotoPsg2{
+    width: 50%;
+    margin: 30px 12px 50px 12px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(111, 255, 233);
+}
+.fondoEstadisticasBarcelona{
+    width: 100%
+}
+.fondoEstadisticasPsg{
+    width: 100%
+}
+.fondoEstadisticasArgentina{
+    width: 100%
+}
+#tituloBarca{
+    position: absolute;
+    top: 20%;
+    left: 1%;
+    color: white;
+    font-size: 24px;
+}
+.bordeAzul{
+    width: 249px;
+    height: 40px;
+    margin: 0px;
+    padding: 12px;
+    background: #0b132b;
+    text-align: center;
+}
+#estadisticasBarcelona{
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    color: white;
+    font-size: 68px;
+}
+#tituloPsg{
+    position: absolute;
+    top: 150%;
+    left: 78%;
+    color: white;
+    font-size: 24px;
+}
+.bordeAzul2{
+    width: 358px;
+    height: 40px;
+    margin: 0px;
+    padding: 12px;
+    background: #0b132b;
+    text-align: center;
+}
+#estadisticasPsg{
+    position: absolute;
+    top: 135%;
+    left: 1%;
+    color: white;
+    font-size: 68px;
+}
+#estadisticasArg{
+    position: absolute;
+    top: 255%;
+    left: 70%;
+    color: white;
+    font-size: 68px;
+}
+#tituloArg{
+    position: absolute;
+    top: 255%;
+    left: 1%;
+    color: white;
+    font-size: 27px;
+}
+.titulos{
+    color: #3a506b;
+    font-family: 'Nunito Sans';
+    display: flex ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+
+.tituloBarcelona{
+    margin: 20px;
+    display: flex ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bordeAzul3{
+    width: 300px;
+    height: 40px;
+    margin: 30px;
+    padding: 12px;
+    background: #0b132b;
+    text-align: center;
+}
+.bordeGris{
+    width: 1200px;
+    height: 40px;
+    margin: 12px;
+    padding: 12px;
+    background: #3a506b;
+    text-align: center;
+}
+#palmaresBarca{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 600px;
+}
+#contenedorPalmaresBarca{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+#palmaresArg{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+#contenedorPalmaresArg{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.tituloArgentina{
+    margin: 30px;
+    display: flex ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bordeAzul4{
+    width: 250px;
+    height: 40px;
+    margin: 30px;
+    padding: 12px;
+    background: #0b132b;
+    text-align: center;
+}
+#palmaresPsg{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+#contenedorPalmaresPsg{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.tituloPsg{
+    margin: 30px;
+    display: flex ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bordeAzul5{
+    width: 420px;
+    height: 40px;
+    margin: 30px;
+    padding: 12px;
+    background: #0b132b;
+    text-align: center;
+}
+#palmaresInd{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin-bottom: 30px;
+}
+#contenedorPalmaresInd{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.tituloInd{
+    margin: 30px;
+    display: flex ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#videos {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+#video1{
+    margin: 15px;
+    padding: 15px;
+}
+#video2{
+    margin: 5px;
+    padding: 30px;
+}
+#imagenes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+#imagenes ul li{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+#galeriaFotoUno img{
+    margin: 10px;
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(111, 255, 233);
+}
+#galeriaFotoDos img{
+    width: 80%;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(111, 255, 233);
+}
+#galeriaFotoTres img{
+    margin: 10px;
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(111, 255, 233);
+}
+#galeriaFotoCuatro img{
+    margin: 10px;
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(111, 255, 233);
+}
+#galeriaFotoCinco img{
+    margin: 10px;
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(111, 255, 233);
+}
