@@ -439,12 +439,12 @@ main section h1{
     top: 20%;
     left: 70%;
     color: white;
-    font-size: 55px;
+    font-size: 54px;
 }
 #tituloPsg{
     position: absolute;
     top: 150%;
-    left: 70%;
+    left: 60%;
     color: white;
     font-size: 24px;
 }
@@ -461,14 +461,14 @@ main section h1{
     top: 135%;
     left: 1%;
     color: white;
-    font-size: 60px;
+    font-size: 59px;
 }
 #estadisticasArg{
     position: absolute;
     top: 255%;
     left: 70%;
     color: white;
-    font-size: 56px;
+    font-size: 55px;
 }
 #tituloArg{
     position: absolute;
