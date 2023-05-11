@@ -525,23 +525,23 @@ main section h1{
 
 #estadisticasPsg{
     position: absolute;
-    top: 135%;
+    top: 155%;
     left: 1%;
     color: white;
-    font-size: 59px;
+    font-size: 56px;
 }
 
 #estadisticasArg{
     position: absolute;
-    top: 255%;
+    top: 275%;
     left: 70%;
     color: white;
-    font-size: 55px;
+    font-size: 54px;
 }
 
 #tituloArg{
     position: absolute;
-    top: 255%;
+    top: 270%;
     left: 1%;
     color: white;
     font-size: 27px;
