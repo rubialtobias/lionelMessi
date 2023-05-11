@@ -1052,8 +1052,8 @@ main section h1{
     }
 
     #palmaresInd{
-        width: 350px;
-        height: 310px;
+        width: 330px;
+        height: 300px;
     }
 
     .tituloPsg{
@@ -1246,8 +1246,8 @@ main section h1{
     
     #tituloPsg{
         position: absolute;
-        top: 99%;
-        left: 55%;
+        top: 105%;
+        left: 54%;
         color: white;
         font-size: 24px;
     }
@@ -1260,7 +1260,7 @@ main section h1{
 
     #estadisticasPsg{
         position: absolute;
-        top: 95%;
+        top: 105%;
         left: 0%;
         color: white;
         font-size: 18px;
@@ -1268,7 +1268,7 @@ main section h1{
 
     #estadisticasArg{
         position: absolute;
-        top: 155%;
+        top: 165%;
         left: 67%;
         color: white;
         font-size: 20px;
@@ -1276,7 +1276,7 @@ main section h1{
 
     #tituloArg{
         position: absolute;
-        top: 155%;
+        top: 165%;
         left: 3%;
         color: white;
         font-size: 22px;
@@ -1307,7 +1307,7 @@ main section h1{
     }
 
     #palmaresInd{
-        width: 540px;
+        width: 530px;
         height: auto;
     }
 
