@@ -190,17 +190,17 @@ main section h1{
 }
 
 .bordeCeleste{
-    width: 120px;
-    height: 30px;
-    padding: 12px 12px 12px 12px;
+    width: 125px;
+    height: 55px;
+    padding: 12px;
     background: #6fffe9;
     border-radius: 20px;
 }
 
 .bordeCeleste2{
     width: 300px;
-    height: 30px;
-    padding: 12px 12px 12px 12px;
+    height: 50px;
+    padding: 12px;
     background: #6fffe9;
     border-radius: 20px;
 }
@@ -370,8 +370,8 @@ main section h1{
 }
 
 .bordeCeleste3{
-    width: 400px;
-    height: 30px;
+    width: 415px;
+    height: 50px;
     margin: 30px 0px 12px 0px;
     padding: 12px 12px 12px 12px;
     background: #6fffe9;
@@ -428,7 +428,7 @@ main section h1{
 
 .bordeCeleste4{
     width: 400px;
-    height: 30px;
+    height: 50px;
     margin: 30px 0px 12px 0px;
     padding: 12px 12px 12px 12px;
     background: #6fffe9;
@@ -527,7 +527,7 @@ main section h1{
 
 #estadisticasArg{
     position: absolute;
-    top: 255%;
+    top: 260%;
     left: 70%;
     color: white;
     font-size: 46px;
@@ -1262,7 +1262,7 @@ main section h1{
 
     #estadisticasPsg{
         position: absolute;
-        top: 93%;
+        top: 95%;
         left: 0%;
         color: white;
         font-size: 18px;
@@ -1270,7 +1270,7 @@ main section h1{
 
     #estadisticasArg{
         position: absolute;
-        top: 147%;
+        top: 155%;
         left: 67%;
         color: white;
         font-size: 20px;
