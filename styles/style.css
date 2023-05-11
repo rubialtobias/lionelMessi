@@ -991,8 +991,8 @@ main section h1{
     
     #tituloPsg{
         position: absolute;
-        top: 52%;
-        left: 55%;
+        top: 55%;
+        left: 53%;
         color: white;
         font-size: 15px;
     }
@@ -1005,7 +1005,7 @@ main section h1{
 
     #estadisticasPsg{
         position: absolute;
-        top: 51%;
+        top: 55%;
         left: -3%;
         color: white;
         font-size: 12px;
@@ -1013,7 +1013,7 @@ main section h1{
 
     #estadisticasArg{
         position: absolute;
-        top: 82%;
+        top: 87%;
         left: 60%;
         color: white;
         font-size: 13px;
@@ -1021,7 +1021,7 @@ main section h1{
 
     #tituloArg{
         position: absolute;
-        top: 83%;
+        top: 88%;
         left: 2%;
         color: white;
         font-size: 15px;
@@ -1057,7 +1057,6 @@ main section h1{
     }
 
     .tituloPsg{
-        margin: 30px;
         display: flex ;
         flex-direction: column;
         flex-wrap: wrap;
