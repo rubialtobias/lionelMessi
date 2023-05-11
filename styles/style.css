@@ -1067,10 +1067,8 @@ main section h1{
     }
 
     .bordeAzul5{
-        width: 320px;
+        width: 310px;
         height: 40px;
-        margin: 30px;
-        padding: 12px;
         background: #0b132b;
         text-align: center;
     }
@@ -1326,8 +1324,6 @@ main section h1{
     .bordeAzul5{
         width: 320px;
         height: 40px;
-        margin: 30px;
-        padding: 12px;
         background: #0b132b;
         text-align: center;
     }
