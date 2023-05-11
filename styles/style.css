@@ -1267,7 +1267,7 @@ main section h1{
 
     #estadisticasArg{
         position: absolute;
-        top: 165%;
+        top: 166%;
         left: 67%;
         color: white;
         font-size: 20px;
@@ -1275,7 +1275,7 @@ main section h1{
 
     #tituloArg{
         position: absolute;
-        top: 165%;
+        top: 167%;
         left: 3%;
         color: white;
         font-size: 22px;
@@ -1311,7 +1311,6 @@ main section h1{
     }
 
     .tituloPsg{
-        margin: 30px;
         display: flex ;
         flex-direction: column;
         flex-wrap: wrap;
