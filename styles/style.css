@@ -1312,4 +1312,23 @@ main section h1{
         width: 550px;
         height: auto;
     }
+
+    .tituloPsg{
+        margin: 30px;
+        display: flex ;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .bordeAzul5{
+        width: 300px;
+        height: 40px;
+        margin: 30px;
+        padding: 12px;
+        background: #0b132b;
+        text-align: center;
+    }
 }
