@@ -1005,7 +1005,7 @@ main section h1{
 
     #estadisticasPsg{
         position: absolute;
-        top: 55%;
+        top: 52%;
         left: -3%;
         color: white;
         font-size: 12px;
@@ -1013,7 +1013,7 @@ main section h1{
 
     #estadisticasArg{
         position: absolute;
-        top: 87%;
+        top: 83%;
         left: 60%;
         color: white;
         font-size: 13px;
@@ -1021,7 +1021,7 @@ main section h1{
 
     #tituloArg{
         position: absolute;
-        top: 88%;
+        top: 87%;
         left: 2%;
         color: white;
         font-size: 15px;
