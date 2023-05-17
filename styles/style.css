@@ -1082,7 +1082,7 @@ main section h1{
         display: flex;
         flex-direction: row;
         justify-self: center;
-        width: 200px;
+        width: 300px;
         padding: 0;
     }
     
@@ -1092,8 +1092,8 @@ main section h1{
     }
     
     header ul li a{
-        padding: 0px 14px;
-        font-size: 25px;
+        padding: 0px 12px;
+        font-size: 15px;
     }
 
     footer {
@@ -1101,11 +1101,11 @@ main section h1{
     }
     
     footer img{
-        width: 45px;
+        width: 25px;
     }
     
     footer a{
-        font-size: 20px ;
+        font-size: 15px ;
         padding: 0px 6px;
     }
 
@@ -1115,7 +1115,7 @@ main section h1{
     }
     
     #hero p{
-        font-size: 30px;
+        font-size: 23px;
     }
 
     .contenedorNoticias{
@@ -1150,16 +1150,16 @@ main section h1{
     }
 
     .textoFoto1{
-        font-size: 24px;
+        font-size: 14px;
         position: absolute;
-        top: 900px;
-        left: 345px;
+        top: 800px;
+        left: 225px;
         transform: translate(-50%, -50%);
         text-align: center;
     }
 
     .textoFoto2{
-        font-size: 25px;
+        font-size: 17px;
         position: absolute;
         top: 50%;
         left: 40%;
@@ -1167,7 +1167,8 @@ main section h1{
     }
 
     #video1{
-        width: 500px;
+        width: 300px;
+        height: 200px;
         margin: 15px;
         margin: 30px;
         padding: 0;
@@ -1175,7 +1176,8 @@ main section h1{
     }
     
     #video2{
-        width: 500px;
+        width: 300px;
+        height: 200px;
         margin: 30px;
         padding: 0;
         box-shadow: 0px 0px 30px rgb(111, 255, 233);
@@ -1219,7 +1221,7 @@ main section h1{
 
     #tituloBarca{
         position: absolute;
-        top: 35%;
+        top: 22%;
         left: 1%;
         color: white;
         font-size: 24px;
@@ -1237,45 +1239,45 @@ main section h1{
     
     #estadisticasBarcelona{
         position: absolute;
-        top: 33%;
-        left: 65%;
+        top: 20%;
+        left: 60%;
         color: white;
-        font-size: 20px;
+        font-size: 14px;
     }
     
     #tituloPsg{
         position: absolute;
-        top: 105%;
-        left: 54%;
+        top: 60%;
+        left: 50%;
         color: white;
-        font-size: 24px;
+        font-size: 18px;
     }
     
     .bordeAzul2{
-        width: 240px;
-        height: 30px;
+        width: 180px;
+        height: 25px;
         padding: 3px 1px;
     }
 
     #estadisticasPsg{
         position: absolute;
-        top: 105%;
-        left: 0%;
+        top: 58%;
+        left: -5%;
         color: white;
-        font-size: 18px;
+        font-size: 13px;
     }
 
     #estadisticasArg{
         position: absolute;
-        top: 166%;
-        left: 67%;
+        top: 95%;
+        left: 60%;
         color: white;
-        font-size: 20px;
+        font-size: 13px;
     }
 
     #tituloArg{
         position: absolute;
-        top: 167%;
+        top: 97%;
         left: 3%;
         color: white;
         font-size: 22px;
@@ -1291,22 +1293,22 @@ main section h1{
     }
 
     #palmaresBarca{
-        width: 550px;
+        width: 350px;
         height: auto;
     }
 
     #palmaresArg{
-        width: 550px;
+        width: 350px;
         height: auto;
     }
 
     #palmaresPsg{
-        width: 550px;
+        width: 350px;
         height: auto;
     }
 
     #palmaresInd{
-        width: 530px;
+        width: 350px;
         height: auto;
     }
 
