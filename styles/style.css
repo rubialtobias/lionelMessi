@@ -901,8 +901,8 @@ main section h1{
     .textoFoto1{
         font-size: 14px;
         position: absolute;
-        top: 800px;
-        left: 220px;
+        top: 120%;
+        left: 60%;
         transform: translate(-50%, -50%);
         text-align: center;
     }
@@ -1152,7 +1152,7 @@ main section h1{
     .textoFoto1{
         font-size: 14px;
         position: absolute;
-        top: 140%;
+        top: 130%;
         left: 60%;
         transform: translate(-50%, -50%);
         text-align: center;
