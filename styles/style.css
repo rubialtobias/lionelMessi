@@ -58,7 +58,7 @@ header ul li a{
     font-family: 'Ruda';
 }
 
-.rudaBold{
+.ruda-bold{
     font-family: 'Ruda';
     font-weight: 700;
 }
@@ -97,7 +97,7 @@ footer a{
     color: white;
 }
 
-.contenedorNoticias {
+.contenedor-noticias {
     margin-top: 15px;
 	width: 330px;
 	height: 80px;
@@ -147,7 +147,7 @@ footer a{
     filter: blur(1.5px);
 }
 
-.textoFoto1{
+.texto-foto1{
     color: white;
     text-shadow: 1px 2px black;
     font-size: 30px;
@@ -163,7 +163,7 @@ footer a{
     text-align: center;
 }
 
-.textoFoto2{
+.texto-foto2{
     color: white;
     text-shadow: 1px 2px black;
     font-size: 30px;
@@ -179,7 +179,7 @@ main section h1{
     padding: 20px;
 }
 
-.azulOscuro{
+.azul-oscuro{
    color: #0b132b; 
 }
 
@@ -189,7 +189,7 @@ main section h1{
     flex-wrap: wrap;
 }
 
-.bordeCeleste{
+.borde-celeste{
     width: 125px;
     height: 55px;
     padding: 12px;
@@ -197,7 +197,7 @@ main section h1{
     border-radius: 20px;
 }
 
-.bordeCeleste2{
+.borde-celeste2{
     width: 300px;
     height: 50px;
     padding: 12px;
@@ -225,32 +225,32 @@ main section h1{
     padding: 10px;
 }
 
-.fotosNinez{
+.fotos-ninez{
     display: flex;
     justify-content: center;
 }
 
-.messiNewells{
+.messi-newells{
     margin: 12px 12px 12px 12px;
     width: 700px;
     border-radius: 20px;
     box-shadow: 0px 0px 30px rgb(111, 255, 233);
 }
 
-.messiGrandoli{
+.messi-grandoli{
     margin: 12px 12px 12px 12px;
     width: 300px;
     border-radius: 20px;
     box-shadow: 0px 0px 30px rgb(111, 255, 233);
 }
 
-.textoNinez p{
+.texto-ninez p{
     color: white;
     margin: 30px 12px 0px 20px;
     font-size: 24px;
 }
 
-.messiBarcelona1{
+.messi-barcelona1{
     margin: 30px 12px 12px 12px;
     width: 400px;
     height: 550px;
@@ -258,7 +258,7 @@ main section h1{
     box-shadow: 0px 0px 30px rgb(111, 255, 233);
 }
 
-.messiBarcelona2{
+.messi-barcelona2{
     margin: 30px 12px 12px 12px;
     width: 390px;
     height: 550px;
@@ -266,7 +266,7 @@ main section h1{
     box-shadow: 0px 0px 30px rgb(111, 255, 233);
 }
 
-.fcBarcelona{
+.fc-barcelona{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -275,7 +275,7 @@ main section h1{
     text-align: center;
 }
 
-.fcBarcelona h2{
+.fc-barcelona h2{
     margin: 30px 12px 12px 12px;
     font-size: 38px;
     display: flex ;
@@ -287,7 +287,7 @@ main section h1{
     padding: 10px;
 }
 
-.textoBarca{
+.texto-barca{
     color: white;
     margin: 30px 12px 0px 20px;
     font-size: 24px;
@@ -301,28 +301,28 @@ main section h1{
     align-items: center;
 }
 
-.fotoBarcelona1{
+.foto-barcelona1{
     width: 60%;
     margin: 30px 12px 12px 12px;
     border-radius: 20px;
     box-shadow: 0px 0px 30px rgb(111, 255, 233);
 }
 
-.fotoBarcelona2{
+.foto-barcelona2{
     width: 60%;
     margin: 30px 12px 12px 12px;
     border-radius: 20px;
     box-shadow: 0px 0px 30px rgb(111, 255, 233);
 }
 
-.fotoBarcelona3{
+.foto-barcelona3{
     width: 60%;
     margin: 30px 12px 12px 12px;
     border-radius: 20px;
     box-shadow: 0px 0px 30px rgb(111, 255, 233);
 }
 
-.fotoBarcelona4{
+.foto-barcelona4{
     width: 60%;
     margin: 30px 12px 12px 12px;
     border-radius: 20px;
@@ -349,7 +349,7 @@ main section h1{
     text-decoration: none;
 }
 
-.seleccionArgentina{
+.seleccion-argentina{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -358,7 +358,7 @@ main section h1{
     text-align: center;
 }
 
-.seleccionArgentina h2{
+.seleccion-argentina h2{
     font-size: 38px;
     display: flex ;
     flex-direction: column;
@@ -369,7 +369,7 @@ main section h1{
     padding: 10px;
 }
 
-.bordeCeleste3{
+.borde-celeste3{
     width: 415px;
     height: 50px;
     margin: 30px 0px 12px 0px;
@@ -378,13 +378,13 @@ main section h1{
     border-radius: 20px;
 }
 
-.textoArgentina{
+.texto-argentina{
         color: white;
         margin: 30px 12px 0px 20px;
         font-size: 24px;
 }
 
-.fotosArgentina{
+.fotos-argentina{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -392,21 +392,21 @@ main section h1{
     align-items: center;
 }
 
-.fotoArgentina1{
+.foto-argentina1{
     width: 30%;
     margin: 30px 12px 12px 12px;
     border-radius: 20px;
     box-shadow: 0px 0px 30px rgb(111, 255, 233);
 }
 
-.fotoArgentina2{
+.foto-argentina2{
     width: 50%;
     margin: 30px 12px 12px 12px;
     border-radius: 20px;
     box-shadow: 0px 0px 30px rgb(111, 255, 233);  
 }
 
-.psgTitulo{
+.psg-titulo{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -415,7 +415,7 @@ main section h1{
     text-align: center;
 }
 
-.psgTitulo h2{
+.psg-titulo h2{
     font-size: 38px;
     display: flex ;
     flex-direction: column;
@@ -426,7 +426,7 @@ main section h1{
     padding: 10px;
 }
 
-.bordeCeleste4{
+.borde-celeste4{
     width: 400px;
     height: 50px;
     margin: 30px 0px 12px 0px;
@@ -435,13 +435,13 @@ main section h1{
     border-radius: 20px;
 }
 
-.textoPsg{
+.texto-psg{
     color: white;
     margin: 30px 12px 0px 20px;
     font-size: 24px;
 }
 
-.fotosPsg{
+.fotos-psg{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -449,29 +449,29 @@ main section h1{
     align-items: center;
 }
 
-.fotoPsg1{
+.foto-psg1{
     width: 50%;
     margin: 30px 12px 12px 12px;
     border-radius: 20px;
     box-shadow: 0px 0px 30px rgb(111, 255, 233);
 }
 
-.fotoPsg2{
+.foto-psg2{
     width: 50%;
     margin: 30px 12px 50px 12px;
     border-radius: 20px;
     box-shadow: 0px 0px 30px rgb(111, 255, 233);
 }
 
-.fondoEstadisticasBarcelona{
+.fondo-estadisticas-barcelona{
     width: 100%
 }
 
-.fondoEstadisticasPsg{
+.fondo-estadisticas-psg{
     width: 100%
 }
 
-.fondoEstadisticasArgentina{
+.fondo-estadisticas-argentina{
     width: 100%
 }
 
@@ -483,7 +483,7 @@ main section h1{
     font-size: 34px;
 }
 
-.bordeAzul{
+.borde-azul{
     width: 249px;
     height: 45px;
     margin: 0px;
@@ -508,7 +508,7 @@ main section h1{
     font-size: 34px;
 }
 
-.bordeAzul2{
+.borde-azul2{
     width: 358px;
     height: 40px;
     margin: 0px;
@@ -541,7 +541,7 @@ main section h1{
     font-size: 32px;
 }
 
-.tituloBarcelona{
+.titulo-barcelona{
     margin: 20px;
     display: flex ;
     flex-direction: column;
@@ -551,7 +551,7 @@ main section h1{
     text-align: center;
 }
 
-.bordeAzul3{
+.borde-azul3{
     width: 190px;
     height: 40px;
     margin: 0px;
@@ -560,7 +560,7 @@ main section h1{
     text-align: center;
 }
 
-.bordeAzul6{
+.borde-azul6{
     width: 250px;
     height: 40px;
     margin: 0px;
@@ -584,7 +584,7 @@ main section h1{
     font-weight: bold;
 }
 
-.bordeGris{
+.borde-gris{
     width: 1200px;
     height: 40px;
     margin: 12px;
@@ -628,7 +628,7 @@ main section h1{
     align-items: center;
 }
 
-.tituloArgentina{
+.titulo-argentina{
     margin: 30px;
     display: flex ;
     flex-direction: column;
@@ -638,7 +638,7 @@ main section h1{
     text-align: center;
 }
 
-.bordeAzul4{
+.borde-azul4{
     width: 250px;
     height: 40px;
     margin: 30px;
@@ -664,7 +664,7 @@ main section h1{
     align-items: center;
 }
 
-.tituloPsg{
+.titulo-asg{
     margin: 30px;
     display: flex ;
     flex-direction: column;
@@ -674,7 +674,7 @@ main section h1{
     text-align: center;
 }
 
-.bordeAzul5{
+.borde-azul5{
     width: 420px;
     height: 40px;
     margin: 30px;
@@ -701,7 +701,7 @@ main section h1{
     align-items: center;
 }
 
-.tituloInd{
+.titulo-ind{
     margin: 30px;
     display: flex ;
     flex-direction: column;
@@ -868,7 +868,7 @@ main section h1{
         font-size: 23px;
     }
 
-    .contenedorNoticias{
+    .contenedor-noticias{
         width: 120px;
         height: 32px;
     }
@@ -898,7 +898,7 @@ main section h1{
         width: 75%;
     }
 
-    .textoFoto1{
+    .texto-foto1{
         font-size: 14px;
         position: absolute;
         top: 130%;
@@ -907,7 +907,7 @@ main section h1{
         text-align: center;
     }
 
-    .textoFoto2{
+    .texto-foto2{
         font-size: 15px;
         position: absolute;
         top: 50%;
@@ -975,7 +975,7 @@ main section h1{
         font-size: 20px;
     }
     
-    .bordeAzul{
+    .borde-azul{
         width: 140px;
         height: 30px;
         padding: 4px;
@@ -997,7 +997,7 @@ main section h1{
         font-size: 15px;
     }
     
-    .bordeAzul2{
+    .borde-azul2{
         width: 160px;
         height: 20px;
         padding: 1px; 
@@ -1027,7 +1027,7 @@ main section h1{
         font-size: 15px;
     }    
 
-    .bordeAzul3{
+    .borde-azul3{
         width: 90px;
         height: 20px;
         margin: 0px;
@@ -1056,7 +1056,7 @@ main section h1{
         height: 300px;
     }
 
-    .tituloPsg{
+    .titulo-psg{
         display: flex ;
         flex-direction: column;
         flex-wrap: wrap;
@@ -1065,7 +1065,7 @@ main section h1{
         text-align: center;
     }
 
-    .bordeAzul5{
+    .borde-azul5{
         width: 310px;
         height: 40px;
         background: #0b132b;
@@ -1118,7 +1118,7 @@ main section h1{
         font-size: 23px;
     }
 
-    .contenedorNoticias{
+    .contenedor-noticias{
         width: 120px;
         height: 32px;
     }
@@ -1149,7 +1149,7 @@ main section h1{
         width: 75%;
     }
 
-    .textoFoto1{
+    .texto-foto1{
         font-size: 14px;
         position: absolute;
         top: 130%;
@@ -1158,7 +1158,7 @@ main section h1{
         text-align: center;
     }
 
-    .textoFoto2{
+    .texto-foto2{
         font-size: 17px;
         position: absolute;
         top: 50%;
@@ -1227,7 +1227,7 @@ main section h1{
         font-size: 22px;
     }
     
-    .bordeAzul{
+    .borde-azul{
         width: 40%;
         height: 5%;
         margin: 0px;
@@ -1253,7 +1253,7 @@ main section h1{
         font-size: 18px;
     }
     
-    .bordeAzul2{
+    .borde-azul2{
         width: 180px;
         height: 25px;
         padding: 3px 1px;
@@ -1283,7 +1283,7 @@ main section h1{
         font-size: 22px;
     }    
 
-    .bordeAzul3{
+    .borde-azul3{
         width: 120px;
         height: 30px;
         margin: 0px;
@@ -1312,7 +1312,7 @@ main section h1{
         height: auto;
     }
 
-    .tituloPsg{
+    .titulo-psg{
         display: flex ;
         flex-direction: column;
         flex-wrap: wrap;
@@ -1321,7 +1321,7 @@ main section h1{
         text-align: center;
     }
 
-    .bordeAzul5{
+    .borde-azul5{
         width: 320px;
         height: 40px;
         background: #0b132b;
