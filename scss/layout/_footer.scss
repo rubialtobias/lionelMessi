@@ -1,0 +1,23 @@
+footer {
+    height: 100px;
+    background-color: #0b132b;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    img{
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border-image: round;
+    }
+    a{
+        padding: 0 12px;
+        text-decoration: none;
+        color: white;
+    }
+}
