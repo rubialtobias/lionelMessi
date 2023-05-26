@@ -9,19 +9,37 @@ header{
     top: 0;
     left: 0;
     width: 100%;
+    @include mediaquery-mobile(){
+        justify-content: center;
+    }
+}
     img{
         padding: 0px 12px;
+        @include mediaquery-mobile(){
+            display: flex;
+            flex-direction: row;
+            justify-self: center;
+            width: 300px;
+            padding: 0;
+        }
     }
     ul{
         list-style-type: none;
         display: flex;
         flex-direction: row;
+        @include mediaquery-mobile(){
+            padding: 0px;
+            margin-bottom: 12px;
+        }   
         li a{
             padding: 0px 30px;
             color: white;
             text-transform: uppercase;
             text-decoration: none;
             font-family: 'Ruda';
+            @include mediaquery-mobile(){
+                padding: 0px 12px;
+                font-size: 15px;
+            }
         }
     }
-}

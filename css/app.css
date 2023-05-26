@@ -32,20 +32,48 @@ header {
   left: 0;
   width: 100%;
 }
-header img {
+@media (max-width: 576px) {
+  header {
+    justify-content: center;
+  }
+}
+
+img {
   padding: 0px 12px;
 }
-header ul {
+@media (max-width: 576px) {
+  img {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    width: 300px;
+    padding: 0;
+  }
+}
+
+ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
 }
-header ul li a {
+@media (max-width: 576px) {
+  ul {
+    padding: 0px;
+    margin-bottom: 12px;
+  }
+}
+ul li a {
   padding: 0px 30px;
   color: white;
   text-transform: uppercase;
   text-decoration: none;
   font-family: "Ruda";
+}
+@media (max-width: 576px) {
+  ul li a {
+    padding: 0px 12px;
+    font-size: 15px;
+  }
 }
 
 footer {
@@ -69,6 +97,193 @@ footer img {
 footer a {
   padding: 0 12px;
   text-decoration: none;
+  color: white;
+}
+
+#hero {
+  background-image: url(../media/messi-copa2.jpg);
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+@media (max-width: 576px) {
+  #hero {
+    background-position: center;
+  }
+}
+
+#hero p {
+  color: white;
+  font-size: 40px;
+  opacity: 60%;
+  display: flex;
+}
+@media (max-width: 576px) {
+  #hero p {
+    font-size: 22px;
+  }
+}
+
+.contenedor-noticias {
+  margin-top: 15px;
+  width: 330px;
+  height: 80px;
+  background: #0b132b;
+}
+@media (max-width: 576px) {
+  .contenedor-noticias {
+    width: 120px;
+    height: 32px;
+  }
+}
+
+#noticias h2 {
+  padding-left: 12px;
+  color: white;
+  font-size: 72px;
+}
+@media (max-width: 576px) {
+  #noticias h2 {
+    padding-left: 5px;
+    font-size: 26px;
+  }
+}
+
+#foto1 {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+@media (max-width: 576px) {
+  #foto1 {
+    margin-right: 0px;
+  }
+}
+
+.foto1 {
+  margin: 12px;
+  padding: 0px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: end;
+  justify-content: end;
+  border-color: #6fffe9;
+  border-width: 3px;
+  border-style: solid;
+  filter: blur(1.5px);
+}
+@media (max-width: 576px) {
+  .foto1 {
+    width: 75%;
+  }
+}
+
+.foto2 {
+  margin: 12px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: baseline;
+  border-color: #6fffe9;
+  border-width: 3px;
+  border-style: solid;
+  filter: blur(1.5px);
+}
+@media (max-width: 576px) {
+  .foto2 {
+    margin: 12px 0px 25px 12px;
+    width: 75%;
+  }
+}
+
+.texto-foto1 {
+  color: white;
+  text-shadow: 1px 2px black;
+  font-size: 30px;
+  position: absolute;
+  top: 155%;
+  left: 40%;
+  text-align: center;
+}
+@media (max-width: 576px) {
+  .texto-foto1 {
+    font-size: 14px;
+    top: 130%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+
+#foto2 {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.texto-foto2 {
+  color: white;
+  text-shadow: 1px 2px black;
+  font-size: 30px;
+  position: absolute;
+  top: 80%;
+  left: 31%;
+  transform: translate(-50%, -50%);
+}
+@media (max-width: 576px) {
+  .texto-foto2 {
+    font-size: 17px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.titulo-novedades {
+  margin-top: 15px;
+  color: white;
+  text-decoration: underline;
+  text-align: center;
+}
+
+#formularioNovedades {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  justify-content: center;
+}
+
+.formulario {
+  padding: 12px;
+}
+
+.contenedor-boton {
+  display: flex;
+  justify-content: center;
+}
+
+.boton-formulario {
+  background-color: white;
+  color: #3a506b;
+  border-radius: 7px;
+  width: 100px;
+  margin-bottom: 12px;
+}
+
+.boton-formulario:hover {
+  background-color: #3a506b;
   color: white;
 }
 
