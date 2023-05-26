@@ -1,0 +1,27 @@
+header{
+    background-color: #0b132b;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    img{
+        padding: 0px 12px;
+    }
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        li a{
+            padding: 0px 30px;
+            color: white;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-family: 'Ruda';
+        }
+    }
+}

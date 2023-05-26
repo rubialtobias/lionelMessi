@@ -1,13 +1,11 @@
-// Basics
 @import './basics/colors';
 @import './basics/typography';
+@import './basics/mediaqueries';
 
-// Layout
 @import './layout/main';
+@import './layout/header';
 @import './layout/footer';
-@import './layout/header;
 
-// Pages
 @import './pages/index';
 @import './pages/biografia';
 @import './pages/estadisticas';

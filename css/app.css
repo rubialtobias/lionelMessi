@@ -1,17 +1,75 @@
-/* Error: Expected '.
- *   ,
- * 8 | @import './layout/header;
- *   |                          ^
- *   '
- *   scss\app.scss 8:26  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Expected '.\a   \2577 \a 8 \2502  @import './layout/header;\d\a   \2502                           ^\a   \2575 \a   scss\\app.scss 8:26  root stylesheet";
+.ruda {
+  font-family: "Ruda";
 }
+
+.ruda-bold {
+  font-family: "Ruda";
+  font-weight: 700;
+}
+
+.nunito {
+  font-family: "Nunito Sans";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  background-color: #1c2541;
+}
+
+header {
+  background-color: #0b132b;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+header img {
+  padding: 0px 12px;
+}
+header ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+header ul li a {
+  padding: 0px 30px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Ruda";
+}
+
+footer {
+  height: 100px;
+  background-color: #0b132b;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+footer img {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-image: round;
+}
+footer a {
+  padding: 0 12px;
+  text-decoration: none;
+  color: white;
+}
+
+/*# sourceMappingURL=app.css.map */
