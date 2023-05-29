@@ -32,17 +32,11 @@ header {
   left: 0;
   width: 100%;
 }
-@media (max-width: 576px) {
-  header {
-    justify-content: center;
-  }
-}
-
-img {
+header img {
   padding: 0px 12px;
 }
 @media (max-width: 576px) {
-  img {
+  header img {
     display: flex;
     flex-direction: row;
     justify-self: center;
@@ -50,19 +44,18 @@ img {
     padding: 0;
   }
 }
-
-ul {
+header ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
 }
 @media (max-width: 576px) {
-  ul {
+  header ul {
     padding: 0px;
     margin-bottom: 12px;
   }
 }
-ul li a {
+header ul li a {
   padding: 0px 30px;
   color: white;
   text-transform: uppercase;
@@ -70,7 +63,7 @@ ul li a {
   font-family: "Ruda";
 }
 @media (max-width: 576px) {
-  ul li a {
+  header ul li a {
     padding: 0px 12px;
     font-size: 15px;
   }
@@ -808,12 +801,18 @@ main section h1 {
 }
 
 .borde-azul3 {
-  width: 130px;
-  height: 35px;
+  width: 260px;
+  height: 55px;
   margin: 0px;
   padding: 3px;
   background: #0b132b;
   text-align: center;
+}
+@media (max-width: 576px) {
+  .borde-azul3 {
+    width: 130px;
+    height: 35px;
+  }
 }
 
 #videos {

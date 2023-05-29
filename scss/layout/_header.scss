@@ -9,10 +9,6 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    @include mediaquery-mobile(){
-        justify-content: center;
-    }
-    }
     img{
         padding: 0px 12px;
         @include mediaquery-mobile(){
@@ -43,3 +39,4 @@ header{
             }
         }
     }
+}

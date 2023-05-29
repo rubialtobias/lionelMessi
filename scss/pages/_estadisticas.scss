@@ -134,10 +134,14 @@
 }
 
 .borde-azul3{
-    width: 130px;
-    height: 35px;
+    width: 260px;
+    height: 55px;
     margin: 0px;
     padding: 3px;
     background: $color-secundario;
     text-align: center;
+    @include mediaquery-mobile {
+        width: 130px;
+        height: 35px;
+    }
 }
