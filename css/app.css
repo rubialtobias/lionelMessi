@@ -1,18 +1,1065 @@
-/* Error: Undefined variable.
- *     ,
- * 146 |     background: $color-secundarios;
- *     |                 ^^^^^^^^^^^^^^^^^^
- *     '
- *   scss\pages\_palmares.scss 146:17  @import
- *   scss\app.scss 13:9                root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a     \2577 \a 146 \2502      background: $color-secundarios;\d\a     \2502                  ^^^^^^^^^^^^^^^^^^\a     \2575 \a   scss\\pages\\_palmares.scss 146:17  @import\a   scss\\app.scss 13:9                root stylesheet";
+.ruda {
+  font-family: "Ruda";
 }
+
+.ruda-bold {
+  font-family: "Ruda";
+  font-weight: 700;
+}
+
+.nunito {
+  font-family: "Nunito Sans";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  background-color: #1c2541;
+}
+
+header {
+  background-color: #0b132b;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+@media (max-width: 576px) {
+  header {
+    justify-content: center;
+  }
+}
+
+img {
+  padding: 0px 12px;
+}
+@media (max-width: 576px) {
+  img {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    width: 300px;
+    padding: 0;
+  }
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 576px) {
+  ul {
+    padding: 0px;
+    margin-bottom: 12px;
+  }
+}
+ul li a {
+  padding: 0px 30px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Ruda";
+}
+@media (max-width: 576px) {
+  ul li a {
+    padding: 0px 12px;
+    font-size: 15px;
+  }
+}
+
+footer {
+  height: 100px;
+  background-color: #0b132b;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 576px) {
+  footer {
+    height: 90px;
+  }
+}
+footer img {
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-image: round;
+}
+@media (max-width: 576px) {
+  footer img {
+    width: 25px;
+  }
+}
+footer a {
+  padding: 0 12px;
+  text-decoration: none;
+  color: white;
+}
+@media (max-width: 576px) {
+  footer a {
+    font-size: 15px;
+    padding: 0px 6px;
+  }
+}
+
+#hero {
+  background-image: url(../media/messi-copa2.jpg);
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+@media (max-width: 576px) {
+  #hero {
+    background-position: center;
+  }
+}
+
+#hero p {
+  color: white;
+  font-size: 40px;
+  opacity: 60%;
+  display: flex;
+}
+@media (max-width: 576px) {
+  #hero p {
+    font-size: 22px;
+  }
+}
+
+.contenedor-noticias {
+  margin-top: 15px;
+  width: 330px;
+  height: 80px;
+  background: #0b132b;
+}
+@media (max-width: 576px) {
+  .contenedor-noticias {
+    width: 120px;
+    height: 32px;
+  }
+}
+
+#noticias h2 {
+  padding-left: 12px;
+  color: white;
+  font-size: 72px;
+}
+@media (max-width: 576px) {
+  #noticias h2 {
+    padding-left: 5px;
+    font-size: 26px;
+  }
+}
+
+#foto1 {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+@media (max-width: 576px) {
+  #foto1 {
+    margin-right: 0px;
+  }
+}
+
+.foto1 {
+  margin: 12px;
+  padding: 0px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: end;
+  justify-content: end;
+  border-color: #6fffe9;
+  border-width: 3px;
+  border-style: solid;
+  filter: blur(1.5px);
+}
+@media (max-width: 576px) {
+  .foto1 {
+    width: 75%;
+  }
+}
+
+.foto2 {
+  margin: 12px;
+  padding: 0px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: baseline;
+  border-color: #6fffe9;
+  border-width: 3px;
+  border-style: solid;
+  filter: blur(1.5px);
+}
+@media (max-width: 576px) {
+  .foto2 {
+    margin: 12px 0px 25px 12px;
+    width: 75%;
+  }
+}
+
+.texto-foto1 {
+  color: white;
+  text-shadow: 1px 2px black;
+  font-size: 30px;
+  position: absolute;
+  top: 155%;
+  left: 40%;
+  text-align: center;
+}
+@media (max-width: 576px) {
+  .texto-foto1 {
+    font-size: 14px;
+    top: 135%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+
+#foto2 {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.texto-foto2 {
+  color: white;
+  text-shadow: 1px 2px black;
+  font-size: 30px;
+  position: absolute;
+  top: 80%;
+  left: 31%;
+  transform: translate(-50%, -50%);
+}
+@media (max-width: 576px) {
+  .texto-foto2 {
+    font-size: 17px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.titulo-novedades {
+  margin-top: 15px;
+  color: white;
+  text-decoration: underline;
+  text-align: center;
+}
+
+#formularioNovedades {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  justify-content: center;
+}
+
+.formulario {
+  padding: 12px;
+}
+
+.contenedor-boton {
+  display: flex;
+  justify-content: center;
+}
+
+.boton-formulario {
+  background-color: white;
+  color: #3a506b;
+  border-radius: 7px;
+  width: 100px;
+  margin-bottom: 12px;
+}
+
+.boton-formulario:hover {
+  background-color: #3a506b;
+  color: white;
+}
+
+main section h1 {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+#infancia {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.borde-celeste {
+  width: 125px;
+  height: 55px;
+  padding: 12px;
+  background: #6fffe9;
+  border-radius: 20px;
+}
+
+.borde-celeste2 {
+  width: 300px;
+  height: 50px;
+  padding: 12px;
+  background: #6fffe9;
+  border-radius: 20px;
+}
+
+.ninez {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.ninez h2 {
+  font-size: 38px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.fotos-ninez {
+  display: flex;
+  justify-content: center;
+}
+
+.messi-newells {
+  margin: 12px 12px 12px 12px;
+  padding: 0;
+  width: 700px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px #6fffe9;
+}
+@media (max-width: 576px) {
+  .messi-newells {
+    width: 50%;
+    height: 40%;
+  }
+}
+
+.messi-grandoli {
+  margin: 12px 12px 12px 12px;
+  padding: 0;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px #6fffe9;
+}
+@media (max-width: 576px) {
+  .messi-grandoli {
+    width: 45%;
+    height: 30%;
+  }
+}
+
+.texto-ninez p {
+  color: white;
+  margin: 30px 12px 0px 20px;
+  font-size: 24px;
+}
+
+.messi-barcelona1 {
+  margin: 30px 12px 12px 12px;
+  padding: 0;
+  width: 400px;
+  height: 550px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px #6fffe9;
+}
+@media (max-width: 576px) {
+  .messi-barcelona1 {
+    width: 40%;
+    height: 35%;
+  }
+}
+
+.messi-barcelona2 {
+  margin: 30px 12px 12px 12px;
+  padding: 0;
+  width: 390px;
+  height: 550px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px #6fffe9;
+}
+@media (max-width: 576px) {
+  .messi-barcelona2 {
+    width: 45%;
+    height: 35%;
+  }
+}
+
+.fc-barcelona {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.fc-barcelona h2 {
+  margin: 30px 12px 12px 12px;
+  font-size: 38px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.texto-barca {
+  color: white;
+  margin: 30px 12px 0px 20px;
+  font-size: 24px;
+}
+
+#fotosBarcelona {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto-barcelona1 {
+  width: 60%;
+  padding: 0;
+  margin: 30px 12px 12px 12px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px #6fffe9;
+}
+@media (max-width: 576px) {
+  .foto-barcelona1 {
+    width: 90%;
+  }
+}
+
+.foto-barcelona2 {
+  width: 60%;
+  padding: 0;
+  margin: 30px 12px 12px 12px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px #6fffe9;
+}
+@media (max-width: 576px) {
+  .foto-barcelona2 {
+    width: 90%;
+  }
+}
+
+.foto-barcelona3 {
+  width: 60%;
+  padding: 0;
+  margin: 30px 12px 12px 12px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px #6fffe9;
+}
+@media (max-width: 576px) {
+  .foto-barcelona3 {
+    width: 90%;
+  }
+}
+
+.foto-barcelona4 {
+  width: 60%;
+  padding: 0;
+  margin: 30px 12px 12px 12px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px #6fffe9;
+}
+@media (max-width: 576px) {
+  .foto-barcelona4 {
+    width: 90%;
+  }
+}
+
+#fotosBarcelona ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  text-decoration: none;
+}
+#fotosBarcelona ul li {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.seleccion-argentina {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.seleccion-argentina h2 {
+  font-size: 38px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.borde-celeste3 {
+  width: 415px;
+  height: 50px;
+  margin: 30px 0px 12px 0px;
+  padding: 12px 12px 12px 12px;
+  background: #6fffe9;
+  border-radius: 20px;
+}
+
+.texto-argentina {
+  color: white;
+  margin: 30px 12px 0px 20px;
+  font-size: 24px;
+}
+
+.fotos-argentina {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto-argentina1 {
+  width: 30%;
+  padding: 0;
+  margin: 30px 12px 12px 12px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px #6fffe9;
+}
+
+.foto-argentina2 {
+  width: 50%;
+  padding: 0;
+  margin: 30px 12px 12px 12px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px #6fffe9;
+}
+
+.psg-titulo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.psg-titulo h2 {
+  font-size: 38px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+@media (max-width: 576px) {
+  .psg-titulo h2 {
+    font-size: 35px;
+  }
+}
+
+.borde-celeste4 {
+  width: 400px;
+  height: 50px;
+  margin: 30px 0px 12px 0px;
+  padding: 12px 12px 12px 12px;
+  background: #6fffe9;
+  border-radius: 20px;
+}
+
+.texto-psg {
+  color: white;
+  margin: 30px 12px 0px 20px;
+  font-size: 24px;
+}
+
+.fotos-psg {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto-psg1 {
+  width: 50%;
+  padding: 0;
+  margin: 30px 12px 12px 12px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px #6fffe9;
+}
+@media (max-width: 576px) {
+  .foto-psg1 {
+    width: 80%;
+  }
+}
+
+.foto-psg2 {
+  width: 50%;
+  padding: 0;
+  margin: 30px 12px 50px 12px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px #6fffe9;
+}
+@media (max-width: 576px) {
+  .foto-psg2 {
+    width: 80%;
+  }
+}
+
+.fondo-estadisticas-barcelona {
+  width: 100%;
+  padding: 0;
+}
+
+.fondo-estadisticas-psg {
+  width: 100%;
+  padding: 0;
+}
+
+.fondo-estadisticas-argentina {
+  width: 100%;
+  padding: 0;
+}
+
+#tituloBarca {
+  position: absolute;
+  top: 20%;
+  left: 1%;
+  color: white;
+  font-size: 34px;
+}
+@media (max-width: 576px) {
+  #tituloBarca {
+    top: 21%;
+    font-size: 28px;
+  }
+}
+
+.borde-azul {
+  width: 249px;
+  height: 45px;
+  margin: 0px;
+  padding: 4px 12px;
+  background: #0b132b;
+  text-align: center;
+}
+@media (max-width: 576px) {
+  .borde-azul {
+    width: 210px;
+    height: 40px;
+  }
+}
+
+#estadisticasBarcelona {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  position: absolute;
+  top: 20%;
+  left: 70%;
+  color: white;
+  font-size: 47px;
+}
+@media (max-width: 576px) {
+  #estadisticasBarcelona {
+    font-size: 18px;
+    top: 25%;
+  }
+}
+
+#tituloPsg {
+  position: absolute;
+  top: 150%;
+  left: 70%;
+  color: white;
+  font-size: 34px;
+}
+@media (max-width: 576px) {
+  #tituloPsg {
+    top: 80%;
+    left: 50%;
+    font-size: 26px;
+    padding: 0px 0px;
+    padding-top: 5px;
+  }
+}
+
+.borde-azul2 {
+  width: 358px;
+  height: 40px;
+  margin: 0px;
+  padding: 4px 12px;
+  background: #0b132b;
+  text-align: center;
+}
+@media (max-width: 576px) {
+  .borde-azul2 {
+    width: 260px;
+    padding: 0px;
+  }
+}
+
+#estadisticasPsg {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  position: absolute;
+  top: 135%;
+  left: 1%;
+  color: white;
+  font-size: 46px;
+}
+@media (max-width: 576px) {
+  #estadisticasPsg {
+    top: 80%;
+    font-size: 18px;
+  }
+}
+
+#estadisticasArg {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  position: absolute;
+  top: 250%;
+  left: 70%;
+  color: white;
+  font-size: 46px;
+}
+@media (max-width: 576px) {
+  #estadisticasArg {
+    font-size: 18px;
+    top: 136%;
+  }
+}
+
+#tituloArg {
+  position: absolute;
+  top: 260%;
+  left: 2%;
+  color: white;
+  font-size: 45px;
+}
+@media (max-width: 576px) {
+  #tituloArg {
+    top: 140%;
+    font-size: 24px;
+  }
+}
+
+.titulo-barcelona {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.borde-azul3 {
+  width: 130px;
+  height: 35px;
+  margin: 0px;
+  padding: 3px;
+  background: #0b132b;
+  text-align: center;
+}
+
+#videos {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#video1 {
+  margin: 30px;
+  padding: 0;
+  box-shadow: 0px 0px 30px #6fffe9;
+  border-radius: 35px;
+}
+@media (max-width: 576px) {
+  #video1 {
+    width: 450px;
+    height: 250px;
+  }
+}
+
+#video2 {
+  margin: 50px;
+  padding: 0;
+  box-shadow: 0px 0px 30px #6fffe9;
+  border-radius: 35px;
+}
+@media (max-width: 576px) {
+  #video2 {
+    width: 450px;
+    height: 250px;
+  }
+}
+
+#imagenes {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+#imagenes ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+#imagenes ul li {
+  margin: 12px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#galeriaFotoUno img {
+  margin: 10px;
+  padding: 0;
+  width: 50%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px #6fffe9;
+}
+
+#galeriaFotoDos img {
+  width: 80%;
+  padding: 0;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px #6fffe9;
+}
+
+#galeriaFotoTres img {
+  margin: 10px;
+  padding: 0;
+  width: 80%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px #6fffe9;
+}
+
+#galeriaFotoCuatro img {
+  margin: 10px;
+  padding: 0;
+  width: 80%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px #6fffe9;
+}
+
+#galeriaFotoCinco img {
+  margin: 10px;
+  padding: 0;
+  width: 80%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px #6fffe9;
+}
+
+.titulos {
+  color: #3a506b;
+  font-family: "Nunito Sans";
+  font-size: 700;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.borde-gris {
+  width: 1200px;
+  height: 40px;
+  margin: 12px;
+  padding: 12px;
+  background: #3a506b;
+  text-align: center;
+}
+
+#palmaresBarca {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 600px;
+}
+
+#contenedorPalmaresBarca {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#palmaresArg {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+}
+
+#contenedorPalmaresArg {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo-argentina {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.borde-azul4 {
+  width: 250px;
+  height: 40px;
+  margin: 30px;
+  padding: 12px;
+  background: #0b132b;
+  text-align: center;
+}
+
+#palmaresPsg {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+}
+
+#contenedorPalmaresPsg {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo-psg {
+  margin: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.borde-azul5 {
+  width: 420px;
+  height: 40px;
+  background: #0b132b;
+  text-align: center;
+}
+
+#palmaresInd {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  margin-bottom: 30px;
+}
+
+#contenedorPalmaresInd {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo-ind {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.borde-azul6 {
+  width: 250px;
+  height: 40px;
+  margin: 0px;
+  padding: 3px;
+  background: #0b132b;
+  text-align: center;
+}
+
+/*# sourceMappingURL=app.css.map */
