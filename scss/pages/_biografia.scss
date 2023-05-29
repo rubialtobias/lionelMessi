@@ -164,22 +164,22 @@ main section h1{
 .foto-barcelona3{
     width: 60%;
     padding: 0;
-    margin: 30px 12px 12px 12px;
+    margin: 30px 0px 12px 12px;
     border-radius: 20px;
     box-shadow: 0px 0px 30px  $color-terciario;
     @include mediaquery-mobile{
-        width: 90%;
+        width: 85%;
     }
 }
 
 .foto-barcelona4{
     width: 60%;
     padding: 0;
-    margin: 30px 12px 12px 12px;
+    margin: 30px 0px 12px 12px;
     border-radius: 20px;
     box-shadow: 0px 0px 30px  $color-terciario;
     @include mediaquery-mobile{
-        width: 90%;
+        width: 85%;
     }
 }
 
@@ -235,7 +235,7 @@ main section h1{
     border-radius: 20px;
     @include mediaquery-mobile{
         width: 300px;
-        height: 25px;
+        height: 30px;
     }
 }
 
@@ -299,7 +299,7 @@ main section h1{
     background:  $color-terciario;
     border-radius: 20px;
     @include mediaquery-mobile{
-        width: 250px;
+        width: 300px;
         height: 30px;
     }
 }
