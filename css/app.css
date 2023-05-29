@@ -304,4 +304,92 @@ footer a {
   color: white;
 }
 
+.fondo-estadisticas-barcelona {
+  width: 100%;
+}
+
+.fondo-estadisticas-psg {
+  width: 100%;
+}
+
+.fondo-estadisticas-argentina {
+  width: 100%;
+}
+
+#tituloBarca {
+  position: absolute;
+  top: 20%;
+  left: 1%;
+  color: white;
+  font-size: 34px;
+}
+
+.borde-azul {
+  width: 249px;
+  height: 45px;
+  margin: 0px;
+  padding: 4px 12px;
+  background: #0b132b;
+  text-align: center;
+}
+
+#estadisticasBarcelona {
+  position: absolute;
+  top: 20%;
+  left: 70%;
+  color: white;
+  font-size: 47px;
+}
+
+#tituloPsg {
+  position: absolute;
+  top: 150%;
+  left: 70%;
+  color: white;
+  font-size: 34px;
+}
+
+.borde-azul2 {
+  width: 358px;
+  height: 40px;
+  margin: 0px;
+  padding: 4px 12px;
+  background: #0b132b;
+  text-align: center;
+}
+
+#estadisticasPsg {
+  position: absolute;
+  top: 137%;
+  left: 1%;
+  color: white;
+  font-size: 46px;
+}
+
+#estadisticasArg {
+  position: absolute;
+  top: 257%;
+  left: 70%;
+  color: white;
+  font-size: 46px;
+}
+
+#tituloArg {
+  position: absolute;
+  top: 260%;
+  left: 2%;
+  color: white;
+  font-size: 32px;
+}
+
+.titulo-barcelona {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 /*# sourceMappingURL=app.css.map */
