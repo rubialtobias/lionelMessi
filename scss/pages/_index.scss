@@ -25,7 +25,7 @@
     margin-top: 15px;
 	width: 330px;
 	height: 80px;
-	background: #0b132b;
+	background: $color-secundario;
     @include mediaquery-mobile(){
         width: 120px;
         height: 32px;
@@ -59,7 +59,7 @@
     flex-wrap: wrap;
     align-items: end;
     justify-content: end;
-    border-color: #6fffe9;
+    border-color: $color-terciario;
     border-width: 3px;
     border-style: solid;
     filter: blur(1.5px);
@@ -69,13 +69,14 @@
 }
 .foto2{
     margin: 12px;
+    padding: 0px;
     width: 60%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: baseline;
     justify-content: baseline;
-    border-color: #6fffe9;
+    border-color: $color-terciario;
     border-width: 3px;
     border-style: solid;
     filter: blur(1.5px);
@@ -143,12 +144,12 @@
 
 .boton-formulario{
     background-color: white;
-    color: #3a506b;
+    color: $color-gris;
     border-radius: 7px;
     width: 100px;
     margin-bottom: 12px;
 }
 .boton-formulario:hover{
-    background-color: #3a506b;
+    background-color: $color-gris;
     color: white;
 }
