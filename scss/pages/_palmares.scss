@@ -105,20 +105,25 @@
 
 .titulo-psg{
     margin: 30px;
-    padding: 30px;
+    padding: 0px;
     display: flex ;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
-}
+    @include mediaquery-mobile{
+        font-size: 25px;
+    }}
 
 .borde-azul5{
     width: 420px;
     height: 40px;
     background: $color-secundario;
     text-align: center;
+    @include mediaquery-mobile{
+        width: 320px;
+    }
 }
 
 #palmaresInd{
