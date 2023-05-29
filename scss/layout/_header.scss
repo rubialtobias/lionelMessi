@@ -38,5 +38,9 @@ header{
                 font-size: 15px;
             }
         }
+        
+    }
+    @include mediaquery-mobile{
+        justify-content: center;
     }
 }
