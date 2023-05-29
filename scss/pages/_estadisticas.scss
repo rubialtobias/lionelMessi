@@ -19,6 +19,10 @@
     left: 1%;
     color: white;
     font-size: 34px;
+    @include mediaquery-mobile{
+        top: 21%;
+        font-size: 28px;   
+    }
 }
 
 .borde-azul{
@@ -26,8 +30,12 @@
     height: 45px;
     margin: 0px;
     padding: 4px 12px;
-    background: #0b132b;
+    background: $color-secundario;
     text-align: center;
+    @include mediaquery-mobile{
+        width: 210px;
+        height: 40px;
+    }
 }
 
 #estadisticasBarcelona{
@@ -39,6 +47,10 @@
     left: 70%;
     color: white;
     font-size: 47px;
+    @include mediaquery-mobile{
+        font-size: 18px;  
+        top: 25%; 
+    }
 }
 
 #tituloPsg{
@@ -47,6 +59,13 @@
     left: 70%;
     color: white;
     font-size: 34px;
+    @include mediaquery-mobile{
+        top: 80%;
+        left: 50%;
+        font-size: 26px;   
+        padding: 0px 0px;
+        padding-top: 5px;
+    }
 }
 
 .borde-azul2{
@@ -54,8 +73,12 @@
     height: 40px;
     margin: 0px;
     padding: 4px 12px;
-    background: #0b132b;
+    background: $color-secundario;
     text-align: center;
+    @include mediaquery-mobile{
+        width: 260px;
+        padding: 0px;
+    }
 }
 
 #estadisticasPsg{
@@ -67,6 +90,10 @@
     left: 1%;
     color: white;
     font-size: 46px;
+    @include mediaquery-mobile{
+        top: 80%;
+        font-size: 18px;
+    }
 }
 
 #estadisticasArg{
@@ -78,6 +105,10 @@
     left: 70%;
     color: white;
     font-size: 46px;
+    @include mediaquery-mobile{
+        font-size: 18px;
+        top: 136%;
+    }
 }
 
 #tituloArg{
@@ -86,6 +117,10 @@
     left: 2%;
     color: white;
     font-size: 45px;
+    @include mediaquery-mobile{
+        top: 140%;
+        font-size: 24px;
+    }
 }
 
 .titulo-barcelona{
@@ -99,10 +134,10 @@
 }
 
 .borde-azul3{
-    width: 250px;
-    height: 60px;
+    width: 130px;
+    height: 35px;
     margin: 0px;
     padding: 3px;
-    background: #0b132b;
+    background: $color-secundario;
     text-align: center;
 }
