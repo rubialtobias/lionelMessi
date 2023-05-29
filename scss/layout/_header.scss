@@ -12,7 +12,7 @@ header{
     @include mediaquery-mobile(){
         justify-content: center;
     }
-}
+    }
     img{
         padding: 0px 12px;
         @include mediaquery-mobile(){

@@ -1,67 +1,330 @@
-.fondo-estadisticas-barcelona{
-    width: 100%
-}
-.fondo-estadisticas-psg{
-    width: 100%
-}
-.fondo-estadisticas-argentina{
-    width: 100%
-}
-#tituloBarca{
-    position: absolute;
-    top: 20%;
-    left: 1%;
+main section h1{
     color: white;
-    font-size: 34px;
-}
-.borde-azul{
-    width: 249px;
-    height: 45px;
-    margin: 0px;
-    padding: 4px 12px;
-    background: #0b132b;
     text-align: center;
+    padding: 20px;
 }
-#estadisticasBarcelona{
-    position: absolute;
-    top: 20%;
-    left: 70%;
-    color: white;
-    font-size: 47px;
+#infancia{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-#tituloPsg{
-    position: absolute;
-    top: 150%;
-    left: 70%;
-    color: white;
-    font-size: 34px;
+
+.borde-celeste{
+    width: 125px;
+    height: 55px;
+    padding: 12px;
+    background:  $color-terciario;
+    border-radius: 20px;
 }
-.borde-azul2{
-    width: 358px;
-    height: 40px;
-    margin: 0px;
-    padding: 4px 12px;
-    background: #0b132b;
+
+.borde-celeste2{
+    width: 300px;
+    height: 50px;
+    padding: 12px;
+    background: $color-terciario;
+    border-radius: 20px;
+}
+
+.ninez{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
     text-align: center;
+    h2{
+        font-size: 38px;
+        display: flex ;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
 }
-#estadisticasPsg{
-    position: absolute;
-    top: 138%;
-    left: 1%;
-    color: white;
-    font-size: 46px;
+
+.fotos-ninez{
+    display: flex;
+    justify-content: center;
 }
-#estadisticasArg{
-    position: absolute;
-    top: 260%;
-    left: 70%;
-    color: white;
-    font-size: 46px;
+
+.messi-newells{
+    margin: 12px 12px 12px 12px;
+    padding: 0;
+    width: 700px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px  $color-terciario;
+    @include mediaquery-mobile{
+        width: 50%;
+        height: 40%;
+    }
 }
-#tituloArg{
-    position: absolute;
-    top: 260%;
-    left: 2%;
+
+.messi-grandoli{
+    margin: 12px 12px 12px 12px;
+    padding: 0;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px  $color-terciario;
+    @include mediaquery-mobile{
+        width: 45%;
+        height: 30%;
+    }
+}
+
+.texto-ninez p{
     color: white;
-    font-size: 32px;
+    margin: 30px 12px 0px 20px;
+    font-size: 24px;
+}
+
+.messi-barcelona1{
+    margin: 30px 12px 12px 12px;
+    padding: 0;
+    width: 400px;
+    height: 550px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px  $color-terciario;
+    @include mediaquery-mobile{
+        width: 40%;
+        height: 35%;
+    }
+}
+
+.messi-barcelona2{
+    margin: 30px 12px 12px 12px;
+    padding: 0;
+    width: 390px;
+    height: 550px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px  $color-terciario;
+    @include mediaquery-mobile{
+        width: 45%;
+        height: 35%;
+    }
+}
+
+.fc-barcelona{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    h2{
+        margin: 30px 12px 12px 12px;
+        font-size: 38px;
+        display: flex ;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+.texto-barca{
+    color: white;
+    margin: 30px 12px 0px 20px;
+    font-size: 24px;
+}
+
+#fotosBarcelona{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-barcelona1{
+    width: 60%;
+    padding: 0;
+    margin: 30px 12px 12px 12px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px  $color-terciario;
+    @include mediaquery-mobile{
+        width: 90%;
+    }
+}
+
+.foto-barcelona2{
+    width: 60%;
+    padding: 0;
+    margin: 30px 12px 12px 12px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px  $color-terciario;
+    @include mediaquery-mobile{
+        width: 90%;
+    }
+}
+
+.foto-barcelona3{
+    width: 60%;
+    padding: 0;
+    margin: 30px 12px 12px 12px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px  $color-terciario;
+    @include mediaquery-mobile{
+        width: 90%;
+    }
+}
+
+.foto-barcelona4{
+    width: 60%;
+    padding: 0;
+    margin: 30px 12px 12px 12px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px  $color-terciario;
+    @include mediaquery-mobile{
+        width: 90%;
+    }
+}
+
+#fotosBarcelona{
+    ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap; 
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        text-decoration: none;
+        li{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap; 
+            justify-content: center;
+            align-items: center;
+            list-style-type: none;
+            text-decoration: none;
+        }   
+    }
+}
+
+.seleccion-argentina{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    h2{
+        font-size: 38px;
+        display: flex ;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+.borde-celeste3{
+    width: 415px;
+    height: 50px;
+    margin: 30px 0px 12px 0px;
+    padding: 12px 12px 12px 12px;
+    background:  $color-terciario;
+    border-radius: 20px;
+}
+
+.texto-argentina{
+        color: white;
+        margin: 30px 12px 0px 20px;
+        font-size: 24px;
+}
+
+.fotos-argentina{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-argentina1{
+    width: 30%;
+    padding: 0;
+    margin: 30px 12px 12px 12px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px  $color-terciario;
+}
+
+.foto-argentina2{
+    width: 50%;
+    padding: 0;
+    margin: 30px 12px 12px 12px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px  $color-terciario;  
+}
+
+.psg-titulo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    h2{
+        font-size: 38px;
+        display: flex ;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        @include mediaquery-mobile{
+            font-size: 35px;
+        }
+    }
+}
+
+.borde-celeste4{
+    width: 400px;
+    height: 50px;
+    margin: 30px 0px 12px 0px;
+    padding: 12px 12px 12px 12px;
+    background:  $color-terciario;
+    border-radius: 20px;
+}
+
+.texto-psg{
+    color: white;
+    margin: 30px 12px 0px 20px;
+    font-size: 24px;
+}
+
+.fotos-psg{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-psg1{
+    width: 50%;
+    padding: 0;
+    margin: 30px 12px 12px 12px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px  $color-terciario;
+    @include mediaquery-mobile{
+        width: 80%;
+    }
+}
+
+.foto-psg2{
+    width: 50%;
+    padding: 0;
+    margin: 30px 12px 50px 12px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px  $color-terciario;
+    @include mediaquery-mobile{
+        width: 80%;
+    }
 }

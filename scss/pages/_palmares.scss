@@ -1,0 +1,148 @@
+.titulos{
+    color: $color-gris;
+    font-family: 'Nunito Sans';
+    font-size: 700;
+    padding: 15px;
+    display: flex ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.borde-gris{
+    width: 1200px;
+    height: 40px;
+    margin: 12px;
+    padding: 12px;
+    background: $color-gris;
+    text-align: center;
+}
+
+#palmaresBarca{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 600px;
+}
+
+#contenedorPalmaresBarca{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#palmaresArg{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+#contenedorPalmaresArg{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-argentina{
+    margin: 30px;
+    display: flex ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.borde-azul4{
+    width: 250px;
+    height: 40px;
+    margin: 30px;
+    padding: 12px;
+    background: $color-secundario;
+    text-align: center;
+}
+
+#palmaresPsg{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+#contenedorPalmaresPsg{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-psg{
+    margin: 30px;
+    padding: 30px;
+    display: flex ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.borde-azul5{
+    width: 420px;
+    height: 40px;
+    background: $color-secundario;
+    text-align: center;
+}
+
+#palmaresInd{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+#contenedorPalmaresInd{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-ind{
+    margin: 30px;
+    display: flex ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.borde-azul6{
+    width: 250px;
+    height: 40px;
+    margin: 0px;
+    padding: 3px;
+    background: #0b132b;
+    text-align: center;
+}

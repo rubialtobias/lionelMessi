@@ -1,12 +1,18 @@
 .fondo-estadisticas-barcelona{
-    width: 100%
+    width: 100%;
+    padding: 0;
 }
+
 .fondo-estadisticas-psg{
-    width: 100%
+    width: 100%;
+    padding: 0;
 }
+
 .fondo-estadisticas-argentina{
-    width: 100%
+    width: 100%;
+    padding: 0;
 }
+
 #tituloBarca{
     position: absolute;
     top: 20%;
@@ -14,6 +20,7 @@
     color: white;
     font-size: 34px;
 }
+
 .borde-azul{
     width: 249px;
     height: 45px;
@@ -22,13 +29,18 @@
     background: #0b132b;
     text-align: center;
 }
+
 #estadisticasBarcelona{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     position: absolute;
     top: 20%;
     left: 70%;
     color: white;
     font-size: 47px;
 }
+
 #tituloPsg{
     position: absolute;
     top: 150%;
@@ -36,6 +48,7 @@
     color: white;
     font-size: 34px;
 }
+
 .borde-azul2{
     width: 358px;
     height: 40px;
@@ -44,39 +57,50 @@
     background: #0b132b;
     text-align: center;
 }
+
 #estadisticasPsg{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     position: absolute;
-    top: 138%;
+    top: 135%;
     left: 1%;
     color: white;
     font-size: 46px;
 }
+
 #estadisticasArg{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     position: absolute;
-    top: 260%;
+    top: 250%;
     left: 70%;
     color: white;
     font-size: 46px;
 }
+
 #tituloArg{
     position: absolute;
     top: 260%;
     left: 2%;
     color: white;
-    font-size: 32px;
+    font-size: 45px;
 }
-.borde-azul3{
-    width: 190px;
-    height: 40px;
-    margin: 0px;
-    padding: 3px;
-    background: #0b132b;
+
+.titulo-barcelona{
+    margin: 20px;
+    display: flex ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
-.borde-azul6{
+.borde-azul3{
     width: 250px;
-    height: 40px;
+    height: 60px;
     margin: 0px;
     padding: 3px;
     background: #0b132b;
