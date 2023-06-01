@@ -1,4 +1,4 @@
-#videos {
+#videos{
     margin: 0px;
     display: flex;
     flex-direction: column;
@@ -6,7 +6,6 @@
     justify-content: center;
     align-items: center;
 }
-
 #video1{
     margin: 30px;
     padding: 0;
@@ -17,7 +16,6 @@
         height: 200px;
     }
 }
-
 #video2{
     margin: 50px;
     padding: 0;
@@ -28,7 +26,6 @@
         height: 200px;
     }
 }
-
 #imagenes{
     display: flex;
     flex-direction: column;
@@ -49,7 +46,6 @@
         }
     }  
 }
-
 #galeriaFotoUno{
     img{
         margin: 10px;
@@ -59,7 +55,6 @@
         box-shadow: 0px 0px 30px $color-terciario;
     }
 }
-
 #galeriaFotoDos{
     img{
         width: 80%;
@@ -78,7 +73,6 @@
         box-shadow: 0px 0px 30px $color-terciario;
     }
 }
-
 #galeriaFotoCuatro{ 
     img{
         margin: 10px;
@@ -88,7 +82,6 @@
         box-shadow: 0px 0px 30px $color-terciario;
     }
 }
-
 #galeriaFotoCinco {
     img{
         margin: 10px;

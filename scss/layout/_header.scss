@@ -27,20 +27,31 @@ header{
             padding: 0px;
             margin-bottom: 12px;
         }   
-        li a{
-            padding: 0px 30px;
-            color: white;
-            text-transform: uppercase;
-            text-decoration: none;
-            font-family: 'Ruda';
-            @include mediaquery-mobile(){
-                padding: 0px 12px;
-                font-size: 15px;
+        li{
+            a{
+                padding: 0px 30px;
+                color: white;
+                text-transform: uppercase;
+                text-decoration: none;
+                font-family: 'Ruda';
+                &:hover{
+                    color: $color-gris;
+                    background-color: $color-terciario;
+                    border-radius: 25px;
+                }
+                @include mediaquery-mobile(){
+                    padding: 0px 12px;
+                    font-size: 15px;
+                }
             }
         }
-        
     }
     @include mediaquery-mobile{
         justify-content: center;
     }
+}
+.active{
+    color: $color-gris;
+    background-color: $color-terciario;
+    border-radius: 25px;
 }
