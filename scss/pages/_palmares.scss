@@ -32,6 +32,10 @@
         width: 250px;
         height: 300px;
     }
+    @include mediaquery-iphone{
+        width: 350px;
+        height: 400px;
+    }
 }
 #contenedorPalmaresBarca{
     display: flex;
@@ -49,6 +53,9 @@
     width: 500px;
     @include mediaquery-mobile{
         width: 250px;
+    }
+    @include mediaquery-iphone{
+        width: 350px;
     }
 }
 #contenedorPalmaresArg{
@@ -85,6 +92,9 @@
     @include mediaquery-mobile{
         width: 250px;
     }
+    @include mediaquery-iphone{
+        width: 350px;
+    }
 }
 #contenedorPalmaresPsg{
     display: flex;
@@ -114,6 +124,9 @@
     @include mediaquery-mobile{
         width: 320px;
     }
+    @include mediaquery-iphone{
+        width: 290px;
+    }
 }
 #palmaresInd{
     display: flex;
@@ -125,6 +138,10 @@
     margin-bottom: 30px;
     @include mediaquery-mobile{
         width: 250px;
+    }
+    @include mediaquery-iphone{
+        width: 355px;
+        height: 350px;
     }
 }
 #contenedorPalmaresInd{
